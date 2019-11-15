@@ -1,0 +1,26 @@
+{
+  "name": "profilegenerator",
+  "version": "1.0.0",
+  "description": "A .pdf generator that creates a GitHub portolio utilizing input from the user. requires GitHub username.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CeeJtheDay/profileGenerator.git"
+  },
+  "keywords": [
+    "npm",
+    "install"
+  ],
+  "author": "Carl J. Conrad",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.5.0"
+  },
+  "bugs": {
+    "url": "https://github.com/CeeJtheDay/profileGenerator/issues"
+  },
+  "homepage": "https://github.com/CeeJtheDay/profileGenerator#readme"
+}

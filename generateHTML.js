@@ -1,3 +1,5 @@
+
+
 const colors = {
   green: {
     wrapperBackground: "#E6E1C3",
@@ -25,7 +27,7 @@ const colors = {
   }
 };
 
-function generateHTML(answers, bioObj,starCount) {
+function generateHTML(answers, bioObj, starCount, colors) {
   return `<!DOCTYPE html>
 <html lang="en">
    <head>
@@ -242,3 +244,8 @@ function generateHTML(answers, bioObj,starCount) {
           </main>
       </body>`
 };
+
+module.exports = {
+  generateHTML: generateHTML(), 
+  colors: colors
+}

@@ -293,6 +293,7 @@ const colors = require("./generateHTML.js");
                   </div>
                  
               <section class="container"> 
+                <div class="row">
                   <div class="col">
                       <div class="card">
                           <h3>Public Repositories</h3>
@@ -305,6 +306,8 @@ const colors = require("./generateHTML.js");
                           <h4>${profileInfo.followers}</h4>
                       </div>
                   </div>
+                </div>
+                <div class="row">
                   <div class="col">
                       <div class="card">
                           <h3>GitHub Stars</h3>
@@ -317,6 +320,7 @@ const colors = require("./generateHTML.js");
                           <h4>${profileInfo.following}</h4>
                       </div>
                   </div>
+                </div>
               </section>
             </main>
         </body>`

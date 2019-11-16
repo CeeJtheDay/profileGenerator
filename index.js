@@ -285,15 +285,12 @@ const colors = require("./generateHTML.js");
   
                   </section>
               </div>
-              <section class="container">
                   
                   <div class="col">
                       <h3 style="color:black">
                           ${profileInfo.bio}
                       </h3>
                   </div>
-                  
-              </section>
                  
               <section class="container"> 
                   <div class="col">
